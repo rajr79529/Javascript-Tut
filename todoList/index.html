@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Todo App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div id="heading">
+      <img src="images/to-do-list.png" alt="todot" />
+      <h1>Todo List</h1>
+    </div>
+    <div id="container">
+      <input
+        placeholder="Add a task"
+        class="add-task"
+        id="add"
+        data-helloWord="asdasdas"
+      />
+      <span id="total-tasks"
+        >Total tasks: <span id="tasks-counter">0</span></span
+      >
+      <ul id="list"></ul>
+    </div>
+    <script src="todo.js"></script>
+    <script type="text/javascript">
+      todoScript.initialize();
+    </script>
+  </body>
+</html>
